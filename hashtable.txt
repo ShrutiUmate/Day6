@@ -1,0 +1,23 @@
+//hashtable
+using System;
+using System.Collections;
+
+namespace sixday
+{
+	public class Program
+	{
+		public static void Main()
+		{
+			Hashtable hashtable=new Hashtable();
+			hashtable.Add(1,"Cat");
+			hashtable.Add(2,"Dog");
+			hashtable.Add(3,"Rabbit");
+			ICollection keys=hashtable.Key;
+			for(var item in keys)
+			{
+				Console.WriteLine(items+" : "+hashtable[item]);
+			}
+			
+		}
+	}
+}

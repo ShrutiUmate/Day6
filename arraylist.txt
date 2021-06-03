@@ -1,0 +1,24 @@
+//arraylist
+using System;
+using System.Collections;
+
+namespace sixday
+{
+	public class Program
+	{
+		public static void Main()
+		{
+			ArrayList arraylist=new ArrayList();
+			arraylist.Add("Cat");
+			arraylist.Add("Dog");
+			arraylist.Add(1);
+			arraylist.Add("Cat");
+			arraylist.Remove(1);
+			for(int i=0;i<arraylist.Count;i++)
+			{
+				Console.WriteLine(arraylist[i]);
+			}
+			
+		}
+	}
+}

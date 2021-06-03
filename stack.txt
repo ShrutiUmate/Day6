@@ -1,0 +1,20 @@
+//Stack
+using System;
+using System.Collections;
+
+namespace sixday
+{
+	public class Program
+	{
+		public static void Main()
+		{
+			Stack stack = new Stack();
+            stack.Push("C#");
+            stack.Push("PHP");
+            stack.Push("JAVA");
+            stack.Pop();
+            Console.WriteLine(stack.Peek());
+		}
+		}
+	}
+}
